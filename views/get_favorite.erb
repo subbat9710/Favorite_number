@@ -1,0 +1,11 @@
+
+<h1>What is your 3 favorite numbers?<h1>
+<form action ="favorites" method ="post">
+First favorite number: <input type = "number" name = "num1" autofocus><br>
+Second favorite number: <input type = "number" name = "num2"><br>
+Third favorite number: <input type = "number" name = "num3"><br>
+<input type = "text" name = "user_name" value = <%= name %> hidden>
+<input type = "text" name = "user_location" value = <% location %> hidden> 
+<input type = "text" name = "user_age" value = <%= age %> hidden>
+<input type = "submit">
+</form>
